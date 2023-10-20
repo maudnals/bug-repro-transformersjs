@@ -16,3 +16,7 @@ Uncaught (in promise) SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not 
     at async pipeline (pipelines.js:2139:19)
     at async app.js:9:14
 ```
+<img width="1173" alt="image" src="https://github.com/maudnals/bug-repro-transformersjs/assets/9762897/ed5502de-65a8-4789-8e2f-01a3a643e38d">
+
+See the code in `script.js`, but essentially we're only calling `await pipeline('sentiment-analysis');`.
+
