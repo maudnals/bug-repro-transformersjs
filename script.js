@@ -1,4 +1,4 @@
-import { pipeline } from '@xenova/transformers';
+import { pipeline } from '@huggingface/transformers';
 
 console.log('✅ Pipeline function is correctly loaded: \n', pipeline);
 
