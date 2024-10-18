@@ -4,6 +4,8 @@
 * Open `http://localhost:1234` in your browser, or whichever URL parcel gives you
 * Open DevTools
 * Observe the error logged in the DevTools console upon model loading:
+    * New error (Transformers.js v3): See https://github.com/huggingface/transformers.js/issues/366#issuecomment-2422614677 
+    * Old error (Transformers.js v2) 
 ```
 Uncaught (in promise) SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
     at JSON.parse (<anonymous>)
